@@ -14,7 +14,22 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@dependecies/dependecy-a": ["libs/dependecy-a/src/index.ts"],
+      "@dependecies/dependecy-a/entry-a": [
+        "libs/dependecy-a/entry-a/src/index.ts"
+      ],
+      "@dependecies/dependecy-a/entry-b": [
+        "libs/dependecy-a/entry-b/src/index.ts"
+      ],
+      "@dependecies/dependecy-b": ["libs/dependecy-b/src/index.ts"],
+      "@dependecies/dependecy-b/entry-c": [
+        "libs/dependecy-b/entry-c/src/index.ts"
+      ],
+      "@dependecies/dependecy-b/entry-d": [
+        "libs/dependecy-b/entry-d/src/index.ts"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

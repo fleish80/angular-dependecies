@@ -2,6 +2,8 @@
   "$schema": "./node_modules/nx/schemas/workspace-schema.json",
   "version": 2,
   "projects": {
+    "dependecy-a": "libs/dependecy-a",
+    "dependecy-b": "libs/dependecy-b",
     "main": "apps/main",
     "main-e2e": "apps/main-e2e"
   }

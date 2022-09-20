@@ -1,0 +1,30 @@
+{
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "projectType": "library",
+  "sourceRoot": "libs/dependecy-b/src",
+  "prefix": "dependecies",
+  "targets": {
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/dependecy-b"],
+      "options": {
+        "jestConfig": "libs/dependecy-b/jest.config.ts",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "libs/dependecy-b/**/*.ts",
+          "libs/dependecy-b/**/*.html",
+          "libs/dependecy-b/entry-c/**/*.ts",
+          "libs/dependecy-b/entry-c/**/*.html",
+          "libs/dependecy-b/entry-d/**/*.ts",
+          "libs/dependecy-b/entry-d/**/*.html"
+        ]
+      }
+    }
+  },
+  "tags": []
+}
