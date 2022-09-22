@@ -1,1 +1,1 @@
-export * from './lib/entry-c.module';
+export * from './lib/entry-c.component';

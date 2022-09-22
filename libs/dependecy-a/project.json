@@ -4,6 +4,18 @@
   "sourceRoot": "libs/dependecy-a/src",
   "prefix": "dependecies",
   "targets": {
+    "build": {
+      "executor": "@angular-devkit/build-angular:ng-packagr",
+      "options": {
+        "tsConfig": "libs/dependecy-a/tsconfig.lib.json",
+        "project": "libs/dependecy-a/ng-package.json"
+      },
+      "configurations": {
+        "production": {
+          "tsConfig": "libs/dependecy-a/tsconfig.lib.json"
+        }
+      }
+    },
     "test": {
       "executor": "@nrwl/jest:jest",
       "outputs": ["coverage/libs/dependecy-a"],
