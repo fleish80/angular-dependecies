@@ -15,19 +15,17 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@dependecies/dependecy-a": ["libs/dependecy-a/src/index.ts"],
-      "@dependecies/dependecy-a/entry-a": [
-        "libs/dependecy-a/entry-a/src/index.ts"
+
+
+
+      "@dependecies/dependecy-a/*": [
+        "dist/dependecy-a/*",
+        "libs/dependecy-a/*"
       ],
-      "@dependecies/dependecy-a/entry-b": [
-        "libs/dependecy-a/entry-b/src/index.ts"
-      ],
-      "@dependecies/dependecy-b": ["libs/dependecy-b/src/index.ts"],
-      "@dependecies/dependecy-b/entry-c": [
-        "libs/dependecy-b/entry-c/src/index.ts"
-      ],
-      "@dependecies/dependecy-b/entry-d": [
-        "libs/dependecy-b/entry-d/src/index.ts"
+
+      "@dependecies/dependecy-b/*": [
+        "dist/dependecy-b/*",
+        "libs/dependecy-b/*"
       ]
     }
   },
