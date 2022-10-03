@@ -1,2 +1,2 @@
-export * from './entry-c/src';
-export * from './entry-d/src';
+export * from '@dependecies/dependecy-b/entry-c';
+export * from '@dependecies/dependecy-b/entry-d';

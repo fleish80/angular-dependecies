@@ -19,7 +19,7 @@
 
 
       "@dependecies/dependecy-a/*": [
-        "dist/dependecy-a/*",
+        "dist/dependecy-a/i",
         "libs/dependecy-a/*"
       ],
 
