@@ -5,7 +5,8 @@
   "prefix": "dependecies",
   "targets": {
     "build": {
-      "executor": "@angular-devkit/build-angular:ng-packagr",
+      "executor": "@nrwl/angular:package",
+      "outputs": ["dist/dependecy-a"],
       "options": {
         "tsConfig": "libs/dependecy-a/tsconfig.lib.json",
         "project": "libs/dependecy-a/ng-package.json"
